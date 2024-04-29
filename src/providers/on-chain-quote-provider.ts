@@ -1,12 +1,12 @@
-import { ChainId } from '@0xelod/sdk-core';
+import { ChainId } from '@taraswap/sdk-core';
 import { BigNumber } from '@ethersproject/bignumber';
 import { BaseProvider } from '@ethersproject/providers';
 import {
   encodeMixedRouteToPath,
   MixedRouteSDK,
   Protocol,
-} from '@0xelod/router-sdk';
-import { encodeRouteToPath } from '@0xelod/v3-sdk';
+} from '@taraswap/router-sdk';
+import { encodeRouteToPath } from '@taraswap/v3-sdk';
 import retry, { Options as RetryOptions } from 'async-retry';
 import _ from 'lodash';
 import stats from 'stats-lite';

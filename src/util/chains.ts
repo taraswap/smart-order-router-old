@@ -4,7 +4,7 @@ import {
   Ether,
   NativeCurrency,
   Token,
-} from '@0xelod/sdk-core';
+} from '@taraswap/sdk-core';
 
 // WIP: Gnosis, Moonbeam
 export const SUPPORTED_CHAINS: ChainId[] = [

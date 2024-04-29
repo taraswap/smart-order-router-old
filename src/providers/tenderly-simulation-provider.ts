@@ -1,11 +1,11 @@
 import http from 'http';
 import https from 'https';
 
-import { ChainId } from '@0xelod/sdk-core';
+import { ChainId } from '@taraswap/sdk-core';
 import {
   PERMIT2_ADDRESS,
   UNIVERSAL_ROUTER_ADDRESS,
-} from '@0xelod/universal-router-sdk';
+} from '@taraswap/universal-router-sdk';
 import { MaxUint256 } from '@ethersproject/constants';
 import { JsonRpcProvider } from '@ethersproject/providers';
 import axios, { AxiosRequestConfig } from 'axios';

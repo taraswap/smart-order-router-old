@@ -1,9 +1,9 @@
-import { TradeType } from '@0xelod/sdk-core';
+import { TradeType } from '@taraswap/sdk-core';
 import { BigNumber } from '@ethersproject/bignumber';
 import {
   InsufficientInputAmountError,
   InsufficientReservesError,
-} from '@0xelod/v2-sdk';
+} from '@taraswap/v2-sdk';
 
 import { V2Route } from '../../routers/router';
 import { CurrencyAmount } from '../../util/amounts';

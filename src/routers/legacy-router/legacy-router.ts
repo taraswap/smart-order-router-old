@@ -1,8 +1,8 @@
-import { ChainId, Currency, Token, TradeType } from '@0xelod/sdk-core';
+import { ChainId, Currency, Token, TradeType } from '@taraswap/sdk-core';
 import { BigNumber } from '@ethersproject/bignumber';
 import { Logger } from '@ethersproject/logger';
-import { SwapRouter, Trade } from '@0xelod/router-sdk';
-import { FeeAmount, MethodParameters, Pool, Route } from '@0xelod/v3-sdk';
+import { SwapRouter, Trade } from '@taraswap/router-sdk';
+import { FeeAmount, MethodParameters, Pool, Route } from '@taraswap/v3-sdk';
 import _ from 'lodash';
 
 import { IOnChainQuoteProvider, RouteWithQuotes } from '../../providers';

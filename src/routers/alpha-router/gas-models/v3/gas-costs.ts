@@ -1,4 +1,4 @@
-import { ChainId, Currency, Token } from '@0xelod/sdk-core';
+import { ChainId, Currency, Token } from '@taraswap/sdk-core';
 import { BigNumber } from '@ethersproject/bignumber';
 
 import { AAVE_MAINNET, LIDO_MAINNET } from '../../../../providers';

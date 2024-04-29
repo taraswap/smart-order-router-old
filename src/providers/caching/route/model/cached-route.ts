@@ -1,6 +1,6 @@
-import { Token } from '@0xelod/sdk-core';
-import { Protocol } from '@0xelod/router-sdk';
-import { Pool } from '@0xelod/v3-sdk';
+import { Token } from '@taraswap/sdk-core';
+import { Protocol } from '@taraswap/router-sdk';
+import { Pool } from '@taraswap/v3-sdk';
 
 import { MixedRoute, V2Route, V3Route } from '../../../../routers';
 

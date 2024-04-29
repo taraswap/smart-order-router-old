@@ -1,7 +1,7 @@
-import { Token, TradeType } from '@0xelod/sdk-core';
+import { Token, TradeType } from '@taraswap/sdk-core';
 import { BigNumber } from '@ethersproject/bignumber';
-import { Protocol } from '@0xelod/router-sdk';
-import { Pool } from '@0xelod/v3-sdk';
+import { Protocol } from '@taraswap/router-sdk';
+import { Pool } from '@taraswap/v3-sdk';
 import _ from 'lodash';
 
 import { IV2PoolProvider } from '../../../providers/v2/pool-provider';

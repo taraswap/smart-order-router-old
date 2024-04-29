@@ -1,5 +1,5 @@
-import { Protocol } from '@0xelod/router-sdk';
-import { CurrencyAmount, TradeType } from '@0xelod/sdk-core';
+import { Protocol } from '@taraswap/router-sdk';
+import { CurrencyAmount, TradeType } from '@taraswap/sdk-core';
 import {
   DAI_MAINNET as DAI,
   USDC_MAINNET as USDC,

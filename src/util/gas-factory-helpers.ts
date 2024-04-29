@@ -1,8 +1,8 @@
-import { ChainId, Percent, Token, TradeType } from '@0xelod/sdk-core';
+import { ChainId, Percent, Token, TradeType } from '@taraswap/sdk-core';
 import { BigNumber } from '@ethersproject/bignumber';
-import { Protocol } from '@0xelod/router-sdk';
-import { Pair } from '@0xelod/v2-sdk';
-import { FeeAmount, Pool } from '@0xelod/v3-sdk';
+import { Protocol } from '@taraswap/router-sdk';
+import { Pair } from '@taraswap/v2-sdk';
+import { FeeAmount, Pool } from '@taraswap/v3-sdk';
 import brotli from 'brotli';
 import JSBI from 'jsbi';
 import _ from 'lodash';

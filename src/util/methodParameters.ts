@@ -1,16 +1,16 @@
-import { ChainId, Currency, TradeType } from '@0xelod/sdk-core';
+import { ChainId, Currency, TradeType } from '@taraswap/sdk-core';
 import {
   UNIVERSAL_ROUTER_ADDRESS,
   SwapRouter as UniversalRouter,
-} from '@0xelod/universal-router-sdk';
+} from '@taraswap/universal-router-sdk';
 import {
   MixedRouteSDK,
   Protocol,
   SwapRouter as SwapRouter02,
   Trade,
-} from '@0xelod/router-sdk';
-import { Route as V2RouteRaw } from '@0xelod/v2-sdk';
-import { Route as V3RouteRaw } from '@0xelod/v3-sdk';
+} from '@taraswap/router-sdk';
+import { Route as V2RouteRaw } from '@taraswap/v2-sdk';
+import { Route as V3RouteRaw } from '@taraswap/v3-sdk';
 import _ from 'lodash';
 
 import {

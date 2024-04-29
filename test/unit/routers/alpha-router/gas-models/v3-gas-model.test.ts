@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Ether } from '@0xelod/sdk-core';
+import { Currency, CurrencyAmount, Ether } from '@taraswap/sdk-core';
 import { BigNumber } from 'ethers';
 import _ from 'lodash';
 import {

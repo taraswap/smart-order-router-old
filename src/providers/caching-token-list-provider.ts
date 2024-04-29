@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@0xelod/sdk-core';
+import { ChainId, Token } from '@taraswap/sdk-core';
 import { TokenInfo, TokenList } from '@uniswap/token-lists';
 import axios from 'axios';
 

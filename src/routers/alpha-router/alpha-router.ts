@@ -1,12 +1,12 @@
-import { Protocol, SwapRouter, Trade, ZERO } from '@0xelod/router-sdk';
+import { Protocol, SwapRouter, Trade, ZERO } from '@taraswap/router-sdk';
 import {
   ChainId,
   Currency,
   Fraction,
   Token,
   TradeType,
-} from '@0xelod/sdk-core';
-import { Pool, Position, SqrtPriceMath, TickMath } from '@0xelod/v3-sdk';
+} from '@taraswap/sdk-core';
+import { Pool, Position, SqrtPriceMath, TickMath } from '@taraswap/v3-sdk';
 import { BigNumber } from '@ethersproject/bignumber';
 import { BaseProvider, JsonRpcProvider } from '@ethersproject/providers';
 import DEFAULT_TOKEN_LIST from '@uniswap/default-token-list';

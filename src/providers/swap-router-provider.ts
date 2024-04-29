@@ -1,5 +1,5 @@
-import { ChainId, Currency, CurrencyAmount } from '@0xelod/sdk-core';
-import { ApprovalTypes } from '@0xelod/router-sdk';
+import { ChainId, Currency, CurrencyAmount } from '@taraswap/sdk-core';
+import { ApprovalTypes } from '@taraswap/router-sdk';
 
 import { SwapRouter02__factory } from '../types/other/factories/SwapRouter02__factory';
 import { log, SWAP_ROUTER_02_ADDRESSES } from '../util';

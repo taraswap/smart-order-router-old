@@ -1,9 +1,9 @@
 import {
   Currency,
   CurrencyAmount as CurrencyAmountRaw,
-} from '@0xelod/sdk-core';
+} from '@taraswap/sdk-core';
 import { parseUnits } from '@ethersproject/units';
-import { FeeAmount } from '@0xelod/v3-sdk';
+import { FeeAmount } from '@taraswap/v3-sdk';
 import JSBI from 'jsbi';
 
 export class CurrencyAmount extends CurrencyAmountRaw<Currency> {}

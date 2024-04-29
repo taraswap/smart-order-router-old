@@ -1,5 +1,5 @@
-import { ChainId, Token, TradeType } from '@0xelod/sdk-core';
-import { encodeSqrtRatioX96, FeeAmount, Pool } from '@0xelod/v3-sdk';
+import { ChainId, Token, TradeType } from '@taraswap/sdk-core';
+import { encodeSqrtRatioX96, FeeAmount, Pool } from '@taraswap/v3-sdk';
 import _ from 'lodash';
 import sinon from 'sinon';
 import {

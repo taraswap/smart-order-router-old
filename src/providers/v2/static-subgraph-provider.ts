@@ -1,5 +1,5 @@
-import { ChainId, Token } from '@0xelod/sdk-core';
-import { Pair } from '@0xelod/v2-sdk';
+import { ChainId, Token } from '@taraswap/sdk-core';
+import { Pair } from '@taraswap/v2-sdk';
 import _ from 'lodash';
 
 import { WRAPPED_NATIVE_CURRENCY } from '../../util/chains';

@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@0xelod/sdk-core';
+import { ChainId, Token } from '@taraswap/sdk-core';
 import _ from 'lodash';
 
 import { log, WRAPPED_NATIVE_CURRENCY } from '../util';

@@ -2,10 +2,10 @@ import {
   ChainId,
   CurrencyAmount as CurrencyAmountRaw,
   Token,
-} from '@0xelod/sdk-core';
+} from '@taraswap/sdk-core';
 import { BigNumber } from '@ethersproject/bignumber';
-import { Pair } from '@0xelod/v2-sdk';
-import { Pool } from '@0xelod/v3-sdk';
+import { Pair } from '@taraswap/v2-sdk';
+import { Pool } from '@taraswap/v3-sdk';
 
 import { ProviderConfig } from '../../../providers/provider';
 import {

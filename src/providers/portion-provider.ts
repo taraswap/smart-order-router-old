@@ -1,6 +1,6 @@
-import { Fraction, TradeType } from '@0xelod/sdk-core';
+import { Fraction, TradeType } from '@taraswap/sdk-core';
 import { BigNumber } from '@ethersproject/bignumber';
-import { ZERO } from '@0xelod/router-sdk';
+import { ZERO } from '@taraswap/router-sdk';
 
 import {
   RouteWithValidQuote,

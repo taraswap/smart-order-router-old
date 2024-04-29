@@ -1,5 +1,5 @@
-import { Protocol } from '@0xelod/router-sdk';
-import { ChainId, TradeType } from '@0xelod/sdk-core';
+import { Protocol } from '@taraswap/router-sdk';
+import { ChainId, TradeType } from '@taraswap/sdk-core';
 import { V3RouteWithValidQuote } from '../../../../../../build/main';
 import {
   CachedRoutes,

@@ -1,6 +1,6 @@
-import { ChainId, Price } from '@0xelod/sdk-core';
+import { ChainId, Price } from '@taraswap/sdk-core';
 import { BigNumber } from '@ethersproject/bignumber';
-import { Pool } from '@0xelod/v3-sdk';
+import { Pool } from '@taraswap/v3-sdk';
 import _ from 'lodash';
 
 import { WRAPPED_NATIVE_CURRENCY } from '../../../..';

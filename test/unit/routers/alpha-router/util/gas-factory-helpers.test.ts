@@ -31,9 +31,9 @@ import {
   getMockedV2PoolProvider,
   getMockedV3PoolProvider,
 } from '../gas-models/test-util/mocked-dependencies';
-import { ChainId, TradeType } from '@0xelod/sdk-core';
-import { Trade } from '@0xelod/router-sdk';
-import { Route } from '@0xelod/v3-sdk';
+import { ChainId, TradeType } from '@taraswap/sdk-core';
+import { Trade } from '@taraswap/router-sdk';
+import { Route } from '@taraswap/v3-sdk';
 import { getPools } from '../gas-models/test-util/helpers';
 import { ArbitrumGasData } from '../../../../../src/providers/v3/gas-data-provider';
 

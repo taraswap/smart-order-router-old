@@ -1,5 +1,5 @@
-import { ChainId, Currency, Token, TradeType } from '@0xelod/sdk-core';
-import { Protocol } from '@0xelod/router-sdk';
+import { ChainId, Currency, Token, TradeType } from '@taraswap/sdk-core';
+import { Protocol } from '@taraswap/router-sdk';
 import _ from 'lodash';
 
 import {

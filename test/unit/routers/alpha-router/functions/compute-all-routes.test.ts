@@ -1,5 +1,5 @@
-import { Pair } from '@0xelod/v2-sdk';
-import { encodeSqrtRatioX96, FeeAmount, Pool } from '@0xelod/v3-sdk';
+import { Pair } from '@taraswap/v2-sdk';
+import { encodeSqrtRatioX96, FeeAmount, Pool } from '@taraswap/v3-sdk';
 import {
   CurrencyAmount,
   DAI_MAINNET as DAI,

@@ -1,9 +1,9 @@
 import { BigNumber } from '@ethersproject/bignumber';
 import { BaseProvider } from '@ethersproject/providers';
-import { Protocol, SwapRouter } from '@0xelod/router-sdk';
-import { Fraction, Percent, TradeType } from '@0xelod/sdk-core';
-import { Pair } from '@0xelod/v2-sdk';
-import { encodeSqrtRatioX96, Pool, Position } from '@0xelod/v3-sdk';
+import { Protocol, SwapRouter } from '@taraswap/router-sdk';
+import { Fraction, Percent, TradeType } from '@taraswap/sdk-core';
+import { Pair } from '@taraswap/v2-sdk';
+import { encodeSqrtRatioX96, Pool, Position } from '@taraswap/v3-sdk';
 import JSBI from 'jsbi';
 import _ from 'lodash';
 import sinon from 'sinon';

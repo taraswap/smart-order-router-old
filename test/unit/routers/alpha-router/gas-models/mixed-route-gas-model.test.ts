@@ -1,7 +1,7 @@
-import { partitionMixedRouteByProtocol } from '@0xelod/router-sdk';
-import { Currency, CurrencyAmount, Ether } from '@0xelod/sdk-core';
-import { Pair } from '@0xelod/v2-sdk';
-import { Pool } from '@0xelod/v3-sdk';
+import { partitionMixedRouteByProtocol } from '@taraswap/router-sdk';
+import { Currency, CurrencyAmount, Ether } from '@taraswap/sdk-core';
+import { Pair } from '@taraswap/v2-sdk';
+import { Pool } from '@taraswap/v3-sdk';
 import { BigNumber } from 'ethers';
 import _ from 'lodash';
 import {

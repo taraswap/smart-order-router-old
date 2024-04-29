@@ -1,7 +1,7 @@
 import { Logger } from '@ethersproject/logger';
 import { flags } from '@oclif/command';
-import { Protocol } from '@0xelod/router-sdk';
-import { Currency, Percent, TradeType } from '@0xelod/sdk-core';
+import { Protocol } from '@taraswap/router-sdk';
+import { Currency, Percent, TradeType } from '@taraswap/sdk-core';
 import dotenv from 'dotenv';
 import _ from 'lodash';
 

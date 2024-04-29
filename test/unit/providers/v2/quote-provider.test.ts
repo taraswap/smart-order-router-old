@@ -1,5 +1,5 @@
-import { ChainId, CurrencyAmount, Fraction, Token } from '@0xelod/sdk-core';
-import { Pair } from '@0xelod/v2-sdk';
+import { ChainId, CurrencyAmount, Fraction, Token } from '@taraswap/sdk-core';
+import { Pair } from '@taraswap/v2-sdk';
 import { BigNumber } from 'ethers';
 import JSBI from 'jsbi';
 import { V2QuoteProvider, V2Route, WETH9 } from '../../../../src';

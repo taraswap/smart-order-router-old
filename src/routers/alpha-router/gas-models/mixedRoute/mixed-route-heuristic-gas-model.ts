@@ -1,8 +1,8 @@
-import { ChainId } from '@0xelod/sdk-core';
+import { ChainId } from '@taraswap/sdk-core';
 import { BigNumber } from '@ethersproject/bignumber';
-import { partitionMixedRouteByProtocol } from '@0xelod/router-sdk';
-import { Pair } from '@0xelod/v2-sdk';
-import { Pool } from '@0xelod/v3-sdk';
+import { partitionMixedRouteByProtocol } from '@taraswap/router-sdk';
+import { Pair } from '@taraswap/v2-sdk';
+import { Pool } from '@taraswap/v3-sdk';
 import JSBI from 'jsbi';
 import _ from 'lodash';
 

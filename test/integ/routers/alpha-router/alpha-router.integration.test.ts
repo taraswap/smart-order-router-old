@@ -4,7 +4,7 @@
 
 import { JsonRpcProvider, JsonRpcSigner } from '@ethersproject/providers';
 import { AllowanceTransfer, PermitSingle } from '@uniswap/permit2-sdk';
-import { Protocol } from '@0xelod/router-sdk';
+import { Protocol } from '@taraswap/router-sdk';
 import {
   ChainId,
   Currency,
@@ -15,14 +15,14 @@ import {
   Rounding,
   Token,
   TradeType,
-} from '@0xelod/sdk-core';
+} from '@taraswap/sdk-core';
 import {
   PERMIT2_ADDRESS,
   UNIVERSAL_ROUTER_ADDRESS as UNIVERSAL_ROUTER_ADDRESS_BY_CHAIN,
-} from '@0xelod/universal-router-sdk';
-import { Permit2Permit } from '@0xelod/universal-router-sdk/dist/utils/inputTokens';
-import { Pair } from '@0xelod/v2-sdk';
-import { encodeSqrtRatioX96, FeeAmount, Pool } from '@0xelod/v3-sdk';
+} from '@taraswap/universal-router-sdk';
+import { Permit2Permit } from '@taraswap/universal-router-sdk/dist/utils/inputTokens';
+import { Pair } from '@taraswap/v2-sdk';
+import { encodeSqrtRatioX96, FeeAmount, Pool } from '@taraswap/v3-sdk';
 import bunyan from 'bunyan';
 import { BigNumber, providers, Wallet } from 'ethers';
 import { parseEther } from 'ethers/lib/utils';

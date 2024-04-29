@@ -1,6 +1,6 @@
-import { ChainId, Token } from '@0xelod/sdk-core';
+import { ChainId, Token } from '@taraswap/sdk-core';
 import { BigNumber } from '@ethersproject/bignumber';
-import { Pair } from '@0xelod/v2-sdk';
+import { Pair } from '@taraswap/v2-sdk';
 import retry, { Options as RetryOptions } from 'async-retry';
 import _ from 'lodash';
 

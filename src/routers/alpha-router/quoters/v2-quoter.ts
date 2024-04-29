@@ -1,6 +1,6 @@
-import { ChainId, Currency, Token, TradeType } from '@0xelod/sdk-core';
+import { ChainId, Currency, Token, TradeType } from '@taraswap/sdk-core';
 import { BigNumber } from '@ethersproject/bignumber';
-import { Protocol } from '@0xelod/router-sdk';
+import { Protocol } from '@taraswap/router-sdk';
 import _ from 'lodash';
 
 import {

@@ -1,11 +1,11 @@
-import { Protocol } from '@0xelod/router-sdk';
+import { Protocol } from '@taraswap/router-sdk';
 import {
   ChainId,
   Currency,
   CurrencyAmount,
   Token,
   TradeType,
-} from '@0xelod/sdk-core';
+} from '@taraswap/sdk-core';
 import {
   CachedRoutes,
   CacheMode,

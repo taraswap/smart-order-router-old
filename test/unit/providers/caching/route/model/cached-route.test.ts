@@ -1,4 +1,4 @@
-import { Protocol } from '@0xelod/router-sdk';
+import { Protocol } from '@taraswap/router-sdk';
 import {
   DAI_MAINNET,
   MixedRoute,

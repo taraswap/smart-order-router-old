@@ -1,4 +1,4 @@
-import { Protocol } from '@0xelod/router-sdk';
+import { Protocol } from '@taraswap/router-sdk';
 
 export const TO_PROTOCOL = (protocol: string): Protocol => {
   switch (protocol.toLowerCase()) {

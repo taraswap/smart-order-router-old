@@ -1,4 +1,4 @@
-import { Token } from '@0xelod/sdk-core';
+import { Token } from '@taraswap/sdk-core';
 
 import { log } from '../../util';
 import { ProviderConfig } from '../provider';

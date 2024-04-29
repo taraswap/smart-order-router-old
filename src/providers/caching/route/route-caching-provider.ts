@@ -10,8 +10,8 @@ import {
   CurrencyAmount,
   Token,
   TradeType,
-} from '@0xelod/sdk-core';
-import { Protocol } from '@0xelod/router-sdk';
+} from '@taraswap/sdk-core';
+import { Protocol } from '@taraswap/router-sdk';
 
 import { CacheMode } from './model';
 import { CachedRoutes } from './model/cached-routes';

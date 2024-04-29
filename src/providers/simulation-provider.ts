@@ -1,5 +1,5 @@
-import { ChainId, TradeType } from '@0xelod/sdk-core';
-import { PERMIT2_ADDRESS } from '@0xelod/universal-router-sdk';
+import { ChainId, TradeType } from '@taraswap/sdk-core';
+import { PERMIT2_ADDRESS } from '@taraswap/universal-router-sdk';
 import { JsonRpcProvider } from '@ethersproject/providers';
 import { BigNumber } from 'ethers/lib/ethers';
 

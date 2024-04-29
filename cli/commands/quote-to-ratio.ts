@@ -1,7 +1,7 @@
 import { Logger } from '@ethersproject/logger';
 import { flags } from '@oclif/command';
-import { Currency, Ether, Fraction, Percent } from '@0xelod/sdk-core';
-import { Position } from '@0xelod/v3-sdk';
+import { Currency, Ether, Fraction, Percent } from '@taraswap/sdk-core';
+import { Position } from '@taraswap/v3-sdk';
 import dotenv from 'dotenv';
 import {
   ID_TO_CHAIN_ID,

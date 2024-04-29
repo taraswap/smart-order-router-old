@@ -4,22 +4,22 @@ import {
   Percent,
   Token,
   TradeType,
-} from '@0xelod/sdk-core';
-import { SwapOptions as UniversalRouterSwapOptions } from '@0xelod/universal-router-sdk';
+} from '@taraswap/sdk-core';
+import { SwapOptions as UniversalRouterSwapOptions } from '@taraswap/universal-router-sdk';
 import { BigNumber } from '@ethersproject/bignumber';
 import {
   CondensedAddLiquidityOptions,
   MixedRouteSDK,
   Protocol,
   Trade,
-} from '@0xelod/router-sdk';
-import { Route as V2RouteRaw } from '@0xelod/v2-sdk';
+} from '@taraswap/router-sdk';
+import { Route as V2RouteRaw } from '@taraswap/v2-sdk';
 import {
   Pool,
   Position,
   MethodParameters as SDKMethodParameters,
   Route as V3RouteRaw,
-} from '@0xelod/v3-sdk';
+} from '@taraswap/v3-sdk';
 
 import { SimulationStatus } from '../providers';
 import { CurrencyAmount } from '../util/amounts';

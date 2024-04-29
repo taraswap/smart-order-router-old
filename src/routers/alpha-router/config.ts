@@ -1,4 +1,4 @@
-import { ChainId } from '@0xelod/sdk-core';
+import { ChainId } from '@taraswap/sdk-core';
 
 import { AlphaRouterConfig, LowerCaseStringArray } from './alpha-router';
 

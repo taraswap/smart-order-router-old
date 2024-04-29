@@ -1,4 +1,4 @@
-import { ChainId } from '@0xelod/sdk-core';
+import { ChainId } from '@taraswap/sdk-core';
 
 import { ICache } from './../cache';
 import { IV3SubgraphProvider, V3SubgraphPool } from './subgraph-provider';

@@ -1,4 +1,4 @@
-import { Fraction } from '@0xelod/sdk-core';
+import { Fraction } from '@taraswap/sdk-core';
 
 import { CurrencyAmount } from '../../../util/amounts';
 

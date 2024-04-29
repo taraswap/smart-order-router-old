@@ -1,4 +1,4 @@
-import { ChainId, Token, WETH9 } from '@0xelod/sdk-core';
+import { ChainId, Token, WETH9 } from '@taraswap/sdk-core';
 import NodeCache from 'node-cache';
 import sinon from 'sinon';
 import {

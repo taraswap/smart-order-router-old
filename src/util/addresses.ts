@@ -3,8 +3,8 @@ import {
   ChainId,
   SWAP_ROUTER_02_ADDRESSES as SWAP_ROUTER_02_ADDRESSES_HELPER,
   Token,
-} from '@0xelod/sdk-core';
-import { FACTORY_ADDRESS } from '@0xelod/v3-sdk';
+} from '@taraswap/sdk-core';
+import { FACTORY_ADDRESS } from '@taraswap/v3-sdk';
 
 import { NETWORKS_WITH_SAME_UNISWAP_ADDRESSES } from './chains';
 

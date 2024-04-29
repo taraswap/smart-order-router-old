@@ -1,5 +1,5 @@
-import { ChainId, Token } from '@0xelod/sdk-core';
-import { FeeAmount, Pool } from '@0xelod/v3-sdk';
+import { ChainId, Token } from '@taraswap/sdk-core';
+import { FeeAmount, Pool } from '@taraswap/v3-sdk';
 import JSBI from 'jsbi';
 import _ from 'lodash';
 

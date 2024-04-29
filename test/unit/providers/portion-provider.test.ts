@@ -6,7 +6,7 @@ import {
   Percent,
   Token,
   TradeType,
-} from '@0xelod/sdk-core';
+} from '@taraswap/sdk-core';
 import {
   parseAmount,
   RouteWithValidQuote,

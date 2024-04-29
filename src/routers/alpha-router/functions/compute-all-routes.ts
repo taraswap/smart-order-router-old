@@ -1,6 +1,6 @@
-import { Token } from '@0xelod/sdk-core';
-import { Pair } from '@0xelod/v2-sdk';
-import { Pool } from '@0xelod/v3-sdk';
+import { Token } from '@taraswap/sdk-core';
+import { Pair } from '@taraswap/v2-sdk';
+import { Pool } from '@taraswap/v3-sdk';
 
 import { log } from '../../../util/log';
 import { poolToString, routeToString } from '../../../util/routes';

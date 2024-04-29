@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber';
-import { Protocol } from '@0xelod/router-sdk';
-import { ChainId, TradeType } from '@0xelod/sdk-core';
+import { Protocol } from '@taraswap/router-sdk';
+import { ChainId, TradeType } from '@taraswap/sdk-core';
 import {
   DAI_MAINNET,
   USDC_MAINNET,
